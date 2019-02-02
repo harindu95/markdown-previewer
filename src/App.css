@@ -1,0 +1,68 @@
+.pane{
+    box-sizing: border-box;
+    height: 80vh;
+    width: 45%;
+    float: left;
+    border: none;
+    margin: 10px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.App{
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+
+#editor {
+    background-color: rgba(244,0,0,0.3);
+}
+
+#preview{
+    padding: 20px;
+    background-color: rgba(0,244,0,0.3);
+}
+
+pre{
+    border: 2px solid grey;
+    border-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow:auto;
+    background-color: white;
+    font-family: monospace;
+    
+}
+
+
+
+blockquote{
+    border: 2px solid grey;
+    border-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    overflow:auto;
+}
+
+header h1{
+    font-family: Monospace;
+    text-align: center;
+}
+.sub{
+    display: block;
+    text-align: center;
+    padding-left: 100px;
+}
+
+@media(max-width:400px){
+    .App{
+        padding: none;
+        margin: none;
+
+    }
+
+    .pane{
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+}
